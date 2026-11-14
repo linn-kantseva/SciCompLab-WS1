@@ -99,7 +99,7 @@ next = mchoice(norounds,history(end-1,2),history(end,2),history(end-1,1),history
 %[text] for later calls.
 %[text] Task e)
 %[text] Same as task c), but using predict3 and transm2. The results are stored in the files data\_2\_3\_10.m, data\_2\_3\_100.m, data\_2\_3\_1000.m for games of 10, 100, and 1000 rounds respectively.
-% do run
+% runs
 data10 = load('data_2_3_10.mat'); 
 data100 = load('data_2_3_100.mat'); 
 data1000 = load('data_2_3_1000.mat'); 
